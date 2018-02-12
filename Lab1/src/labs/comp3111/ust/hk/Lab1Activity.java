@@ -8,6 +8,9 @@ public class Lab1Activity {
 		int sum = 0;
 		
 		// Write your code here..
+		for (int i=0;i<10;++i) {
+			sum = sum + arr[i];
+		}
 	
 		System.out.println(String.format("Sum of the numbers is %d",sum));
 		
